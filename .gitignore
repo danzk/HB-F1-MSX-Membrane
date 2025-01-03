@@ -1,0 +1,4 @@
+# Kicad Files
+pcb/*backups
+*.lck
+fp-info-cache
