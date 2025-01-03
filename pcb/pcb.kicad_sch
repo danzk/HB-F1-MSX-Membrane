@@ -1879,15 +1879,15 @@
 		(uuid "ffd224f1-04ce-49c6-97a4-a9712f877ae4")
 	)
 	(no_connect
-		(at 243.84 22.86)
+		(at 243.84 25.4)
 		(uuid "61808b8f-d9ac-40e6-a37f-dc5ca819f1e4")
 	)
 	(no_connect
-		(at 246.38 22.86)
+		(at 246.38 25.4)
 		(uuid "7ab08322-eeee-41f2-8119-c6354cfab88c")
 	)
 	(no_connect
-		(at 248.92 22.86)
+		(at 248.92 25.4)
 		(uuid "a37a2e63-9878-488e-aa0b-ffe1543f3fdc")
 	)
 	(bus_entry
@@ -2408,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 33.02) (xy 220.98 22.86)
+			(xy 220.98 33.02) (xy 220.98 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2468,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 33.02) (xy 233.68 22.86)
+			(xy 233.68 33.02) (xy 233.68 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2518,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 33.02) (xy 200.66 22.86)
+			(xy 200.66 33.02) (xy 200.66 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2678,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 33.02) (xy 238.76 22.86)
+			(xy 238.76 33.02) (xy 238.76 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +2788,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 35.56) (xy 254 22.86)
+			(xy 254 35.56) (xy 254 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2808,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 33.02) (xy 218.44 22.86)
+			(xy 218.44 33.02) (xy 218.44 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2918,7 +2918,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 33.02) (xy 215.9 22.86)
+			(xy 215.9 33.02) (xy 215.9 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2948,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 33.02) (xy 241.3 22.86)
+			(xy 241.3 33.02) (xy 241.3 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3288,7 +3288,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 33.02) (xy 210.82 22.86)
+			(xy 210.82 33.02) (xy 210.82 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3538,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 33.02) (xy 223.52 22.86)
+			(xy 223.52 33.02) (xy 223.52 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3628,7 +3628,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 33.02) (xy 228.6 22.86)
+			(xy 228.6 33.02) (xy 228.6 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3688,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 33.02) (xy 203.2 22.86)
+			(xy 203.2 33.02) (xy 203.2 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3738,7 +3738,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 33.02) (xy 208.28 22.86)
+			(xy 208.28 33.02) (xy 208.28 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3768,7 +3768,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 33.02) (xy 231.14 22.86)
+			(xy 231.14 33.02) (xy 231.14 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3808,7 +3808,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 35.56) (xy 251.46 22.86)
+			(xy 251.46 35.56) (xy 251.46 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3908,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 33.02) (xy 256.54 22.86)
+			(xy 256.54 33.02) (xy 256.54 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4108,7 +4108,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 33.02) (xy 226.06 22.86)
+			(xy 226.06 33.02) (xy 226.06 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4198,7 +4198,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 33.02) (xy 205.74 22.86)
+			(xy 205.74 33.02) (xy 205.74 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4368,7 +4368,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 33.02) (xy 213.36 22.86)
+			(xy 213.36 33.02) (xy 213.36 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4428,7 +4428,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 30.48) (xy 259.08 22.86)
+			(xy 259.08 30.48) (xy 259.08 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4778,7 +4778,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 33.02) (xy 236.22 22.86)
+			(xy 236.22 33.02) (xy 236.22 25.4)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +5726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 68.58 158.75 0)
 			(effects
 				(font
@@ -5794,7 +5794,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 133.35 0)
 			(effects
 				(font
@@ -5862,7 +5862,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 72.39 0)
 			(effects
 				(font
@@ -5930,7 +5930,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 83.82 85.09 0)
 			(effects
 				(font
@@ -5998,7 +5998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 144.78 59.69 0)
 			(effects
 				(font
@@ -6065,7 +6065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 99.06 110.49 0)
 			(effects
 				(font
@@ -6132,7 +6132,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 129.54 110.49 0)
 			(effects
 				(font
@@ -6199,7 +6199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:LED"
 			(at 269.24 38.1 0)
 			(effects
 				(font
@@ -6243,7 +6243,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x24")
-		(at 228.6 17.78 90)
+		(at 228.6 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6252,14 +6252,6 @@
 		(fields_autoplaced yes)
 		(uuid "19c45c44-f93d-4d8a-bf49-cf78a115159d")
 		(property "Reference" "J1"
-			(at 229.87 11.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x24"
 			(at 229.87 13.97 90)
 			(effects
 				(font
@@ -6267,8 +6259,16 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 228.6 17.78 0)
+		(property "Value" "Conn_01x24"
+			(at 229.87 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sony_Hit_Bit:Connector"
+			(at 228.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6277,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 17.78 0)
+			(at 228.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6286,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 228.6 17.78 0)
+			(at 228.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6401,7 +6401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 68.58 72.39 0)
 			(effects
 				(font
@@ -6469,7 +6469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 144.78 72.39 0)
 			(effects
 				(font
@@ -6537,7 +6537,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 83.82 72.39 0)
 			(effects
 				(font
@@ -6604,7 +6604,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 83.82 110.49 0)
 			(effects
 				(font
@@ -6672,7 +6672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 114.3 59.69 0)
 			(effects
 				(font
@@ -6740,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 144.78 146.05 0)
 			(effects
 				(font
@@ -6808,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 68.58 46.99 0)
 			(effects
 				(font
@@ -6876,7 +6876,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 53.34 158.75 0)
 			(effects
 				(font
@@ -6944,7 +6944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 99.06 97.79 0)
 			(effects
 				(font
@@ -7011,7 +7011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 114.3 110.49 0)
 			(effects
 				(font
@@ -7079,7 +7079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 114.3 72.39 0)
 			(effects
 				(font
@@ -7147,7 +7147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 99.06 72.39 0)
 			(effects
 				(font
@@ -7215,7 +7215,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 129.54 59.69 0)
 			(effects
 				(font
@@ -7283,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 99.06 158.75 0)
 			(effects
 				(font
@@ -7351,7 +7351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 68.58 110.49 0)
 			(effects
 				(font
@@ -7419,7 +7419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 114.3 97.79 0)
 			(effects
 				(font
@@ -7487,7 +7487,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 53.34 110.49 0)
 			(effects
 				(font
@@ -7555,7 +7555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 129.54 85.09 0)
 			(effects
 				(font
@@ -7623,7 +7623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 83.82 123.19 0)
 			(effects
 				(font
@@ -7691,7 +7691,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 68.58 123.19 0)
 			(effects
 				(font
@@ -7759,7 +7759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -7827,7 +7827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 53.34 123.19 0)
 			(effects
 				(font
@@ -7895,7 +7895,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 83.82 97.79 0)
 			(effects
 				(font
@@ -7963,7 +7963,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 252.73 40.64 0)
 			(effects
 				(font
@@ -8031,7 +8031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 158.75 0)
 			(effects
 				(font
@@ -8099,7 +8099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 114.3 146.05 0)
 			(effects
 				(font
@@ -8167,7 +8167,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 146.05 0)
 			(effects
 				(font
@@ -8235,7 +8235,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 144.78 46.99 0)
 			(effects
 				(font
@@ -8303,7 +8303,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 53.34 72.39 0)
 			(effects
 				(font
@@ -8371,7 +8371,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 99.06 59.69 0)
 			(effects
 				(font
@@ -8439,7 +8439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 110.49 0)
 			(effects
 				(font
@@ -8507,7 +8507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 114.3 123.19 0)
 			(effects
 				(font
@@ -8575,7 +8575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 99.06 123.19 0)
 			(effects
 				(font
@@ -8643,7 +8643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 114.3 158.75 0)
 			(effects
 				(font
@@ -8711,7 +8711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 129.54 97.79 0)
 			(effects
 				(font
@@ -8779,7 +8779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 129.54 123.19 0)
 			(effects
 				(font
@@ -8847,7 +8847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 53.34 85.09 0)
 			(effects
 				(font
@@ -8915,7 +8915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 53.34 46.99 0)
 			(effects
 				(font
@@ -8983,7 +8983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 68.58 85.09 0)
 			(effects
 				(font
@@ -9051,7 +9051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 68.58 59.69 0)
 			(effects
 				(font
@@ -9119,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -9187,7 +9187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 123.19 0)
 			(effects
 				(font
@@ -9254,7 +9254,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 59.69 0)
 			(effects
 				(font
@@ -9322,7 +9322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 99.06 146.05 0)
 			(effects
 				(font
@@ -9390,7 +9390,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 68.58 146.05 0)
 			(effects
 				(font
@@ -9457,7 +9457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 144.78 110.49 0)
 			(effects
 				(font
@@ -9525,7 +9525,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 114.3 46.99 0)
 			(effects
 				(font
@@ -9593,7 +9593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 129.54 146.05 0)
 			(effects
 				(font
@@ -9661,7 +9661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 129.54 158.75 0)
 			(effects
 				(font
@@ -9729,7 +9729,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 144.78 158.75 0)
 			(effects
 				(font
@@ -9796,7 +9796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 53.34 59.69 0)
 			(effects
 				(font
@@ -9864,7 +9864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 129.54 72.39 0)
 			(effects
 				(font
@@ -9932,7 +9932,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 83.82 146.05 0)
 			(effects
 				(font
@@ -10000,7 +10000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 46.99 0)
 			(effects
 				(font
@@ -10068,7 +10068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 99.06 85.09 0)
 			(effects
 				(font
@@ -10136,7 +10136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 53.34 97.79 0)
 			(effects
 				(font
@@ -10204,7 +10204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 83.82 158.75 0)
 			(effects
 				(font
@@ -10272,7 +10272,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 97.79 0)
 			(effects
 				(font
@@ -10340,7 +10340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 99.06 46.99 0)
 			(effects
 				(font
@@ -10408,7 +10408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 83.82 46.99 0)
 			(effects
 				(font
@@ -10476,7 +10476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 114.3 85.09 0)
 			(effects
 				(font
@@ -10544,7 +10544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 144.78 85.09 0)
 			(effects
 				(font
@@ -10612,7 +10612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 144.78 123.19 0)
 			(effects
 				(font
@@ -10680,7 +10680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 83.82 59.69 0)
 			(effects
 				(font
@@ -10748,7 +10748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 38.1 85.09 0)
 			(effects
 				(font
@@ -10816,7 +10816,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 53.34 146.05 0)
 			(effects
 				(font
@@ -10884,7 +10884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sony_Hit_Bit:Switch"
 			(at 68.58 97.79 0)
 			(effects
 				(font
