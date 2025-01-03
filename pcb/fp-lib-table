@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Sony Hit Bit")(type "KiCad")(uri "${KIPRJMOD}/footprints/Sony Hit Bit.pretty")(options "")(descr ""))
+)

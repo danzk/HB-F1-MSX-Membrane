@@ -1,4 +1,4 @@
-* MSX HB-F1 Keyboard Membrane
+# MSX HB-F1 Keyboard Membrane
 
 A replacement keyboard membrane for the Sony HB-F1 MSX home computer.
 
