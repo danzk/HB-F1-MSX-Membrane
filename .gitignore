@@ -2,3 +2,5 @@
 pcb/*backups
 *.lck
 fp-info-cache
+*.kicad_prl
+*missing3Dmodels.txt
