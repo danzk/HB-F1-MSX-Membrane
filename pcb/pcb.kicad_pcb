@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6)
+		(thickness 0.244)
 		(legacy_teardrops no)
 	)
 	(paper "A3")
@@ -49,31 +49,36 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
+				(material "Direct Printing")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "#8080801A")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.012)
 			)
 			(layer "dielectric 1"
 				(type "core")
-				(thickness 1.51)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
+				(color "Polyimide")
+				(thickness 0.2)
+				(material "Polyimide")
+				(epsilon_r 3.2)
+				(loss_tangent 0.004)
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.012)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "#8080801A")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -81,11 +86,14 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
+				(material "Direct Printing")
 			)
-			(copper_finish "None")
+			(copper_finish "ENIG")
 			(dielectric_constraints no)
 		)
-		(pad_to_mask_clearance 0)
+		(pad_to_mask_clearance 0.05)
+		(solder_mask_min_width 0.25)
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 33.54 213)
 		(pcbplotparams
