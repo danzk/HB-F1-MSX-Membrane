@@ -7,6 +7,7 @@
 		(at 0 19.05 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "7814199e-dae6-428f-b1d5-8ea899b11c0b")
 		(effects
 			(font
@@ -66,7 +67,7 @@
 			)
 		)
 	)
-	(attr smd exclude_from_bom)
+	(attr smd exclude_from_bom allow_missing_courtyard)
 	(fp_poly
 		(pts
 			(xy -29.21 19.05) (xy -30.48 22.225) (xy -27.94 22.225)
