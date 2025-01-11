@@ -6816,8 +6816,8 @@
 			(uuid "cc9ecf0b-c02e-4182-9db7-68060a676ebb")
 		)
 		(fp_text user "${VALUE}"
-			(at 0 0 -45)
-			(layer "F.SilkS")
+			(at 0 0 315)
+			(layer "F.SilkS" knockout)
 			(uuid "83abd36a-6c2e-4c05-be5d-6fcfa5a32d76")
 			(effects
 				(font
