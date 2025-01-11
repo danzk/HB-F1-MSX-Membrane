@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "HB-F1 MSX Keyboard Membrane Schematic")
-		(date "2025-01-07")
-		(rev "0.1")
+		(date "2025-01-11")
+		(rev "1.0")
 		(comment 1 "This source describes Open Hardware and is licensed under the CERN-OHL-W v2 or later.")
 		(comment 2 "Copyright Alexander Knapik 2025.")
 	)

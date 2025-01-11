@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.7"
     },
-    "CreationDate": "2025-01-11T19:00:38+10:30"
+    "CreationDate": "2025-01-11T19:26:12+10:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "pcb",
       "GUID": "7063622e-6b69-4636-9164-5f7063625858",
-      "Revision": "0.1"
+      "Revision": "1.0"
     },
     "Size": {
       "X": 350.13,
