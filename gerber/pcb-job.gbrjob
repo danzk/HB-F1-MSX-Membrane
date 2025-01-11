@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.7"
     },
-    "CreationDate": "2025-01-11T19:26:12+10:30"
+    "CreationDate": "2025-01-11T20:18:22+10:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,7 +18,7 @@
       "Y": 170.13
     },
     "LayerNumber": 2,
-    "BoardThickness": 0.1034,
+    "BoardThickness": 0.104,
     "Finish": "ENIG",
     "EdgeConnector": true,
     "EdgeConnectorBevelled": false
@@ -106,12 +106,12 @@
       "Type": "SolderMask",
       "Color": "Yellow",
       "Thickness": 0.0275,
-      "Material": "Coverlay",
+      "Material": "Coverlay + Adhesive",
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0117,
+      "Thickness": 0.012,
       "Name": "F.Cu"
     },
     {
@@ -124,14 +124,14 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0117,
+      "Thickness": 0.012,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
       "Color": "Yellow",
       "Thickness": 0.0275,
-      "Material": "Coverlay",
+      "Material": "Coverlay + Adhesive",
       "Name": "Bottom Solder Mask"
     },
     {
