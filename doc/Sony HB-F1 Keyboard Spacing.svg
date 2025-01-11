@@ -24,15 +24,15 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="10.663968"
-     inkscape:cx="27.19438"
-     inkscape:cy="-0.70330294"
+     inkscape:zoom="20.456809"
+     inkscape:cx="48.590177"
+     inkscape:cy="17.818028"
      inkscape:window-width="1279"
      inkscape:window-height="1378"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer4" />
+     inkscape:current-layer="layer2" />
   <defs
      id="defs1">
     <linearGradient
@@ -47,7 +47,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Keycaps">
+     inkscape:label="Keycaps"
+     style="display:inline">
     <rect
        style="fill:#666666;fill-opacity:1;stroke:#000000;stroke-width:0.025"
        id="rect297"
@@ -1278,7 +1279,12 @@
          id="tspan516"
          style="stroke-width:0.025"
          x="8.1999998"
-         y="5.0007539">6.5U OFFSET 0.5U RIGHT</tspan></text>
+         y="5.0007539">6.25U OFFSET 0.25U RIGHT</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.025"
+         x="8.1999998"
+         y="5.3535328"
+         id="tspan1" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.282223px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.025;stroke-opacity:1"
@@ -1292,15 +1298,25 @@
          y="4.9993424">1U</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.282223px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.025;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.282223px;line-height:0;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.025;stroke-opacity:1"
        x="13.55"
-       y="4.9993424"
+       y="4.7944593"
        id="text518"><tspan
          sodipodi:role="line"
          id="tspan518"
-         style="stroke-width:0.025"
+         style="line-height:1.25;stroke-width:0.025"
          x="13.55"
-         y="4.9993424">1.5U</tspan></text>
+         y="4.7944593">1.5U</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:0.17639px;line-height:1;stroke-width:0.025"
+         x="13.55"
+         y="5.0288944"
+         id="tspan2">OFFSET</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:0.17639px;line-height:1;stroke-width:0.025"
+         x="13.55"
+         y="5.2052846"
+         id="tspan3">0.5U RIGHT</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:0.282223px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.025;stroke-opacity:1"
