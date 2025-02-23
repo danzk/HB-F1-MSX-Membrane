@@ -20,3 +20,6 @@ AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2
 for applicable conditions.
 
 ![PCB Render](doc/pcb-render.jpg)
+![PCB Actual](doc/pcb-actual.jpg)
+![PCB Tray](doc/pcb-actual-tray.jpg)
+![PCB TEST](doc/pcb-test.jpg)
