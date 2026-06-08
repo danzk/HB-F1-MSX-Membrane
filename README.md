@@ -29,6 +29,16 @@ See [doc/MANUFACTURING.md](doc/MANUFACTURING.md) for how to order the membrane
 from JLCPCB as a 2-layer flexible PCB (stackup, order settings and stiffener
 details).
 
+## Other projects
+
+Related keyboard membrane / replacement projects for other Sony MSX models:
+
+- [RBSC/KeyboardMembrane_SonyF1Xx](https://github.com/RBSC/KeyboardMembrane_SonyF1Xx)
+  — replacement membrane PCB and gerbers for the Sony HB-F1XV, HB-F1XD and
+  HB-F1XDJ.
+- [S0urceror/HB-F1XD-keyboard](https://github.com/S0urceror/HB-F1XD-keyboard)
+  — KiCad PCB replacement for the Sony HB-F1XD MSX2 keyboard membrane.
+
 ## Tooling
 
 2D mechanical drawings were performed with QCAD v3.31.2.7 — https://www.qcad.org/
