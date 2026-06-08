@@ -1,0 +1,148 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "8.0.7"
+    },
+    "CreationDate": "2025-01-11T23:48:55+10:30"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "pcb",
+      "GUID": "7063622e-6b69-4636-9164-5f7063625858",
+      "Revision": "1.0"
+    },
+    "Size": {
+      "X": 350.13,
+      "Y": 170.13
+    },
+    "LayerNumber": 2,
+    "BoardThickness": 0.104,
+    "Finish": "ENIG",
+    "EdgeConnector": true,
+    "EdgeConnectorBevelled": false
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.25,
+      "PadToTrack": 0.25,
+      "TrackToTrack": 0.25,
+      "MinLineWidth": 0.5,
+      "TrackToRegion": 0.25,
+      "RegionToRegion": 0.25
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "pcb-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-B_Cu.gbr",
+      "FileFunction": "Copper,L2,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "pcb-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "pcb-User_Comments.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "pcb-User_1.gbr",
+      "FileFunction": "Other,User",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Direct Printing",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Yellow",
+      "Thickness": 0.0275,
+      "Material": "Coverlay + Adhesive",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.012,
+      "Name": "F.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R205G130B0",
+      "Thickness": 0.025,
+      "Material": "Polyimide",
+      "Name": "F.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.012,
+      "Name": "B.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Yellow",
+      "Thickness": 0.0275,
+      "Material": "Coverlay + Adhesive",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "White",
+      "Material": "Direct Printing",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
