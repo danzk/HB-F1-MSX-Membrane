@@ -7,5 +7,9 @@ from the shared footprint library.
 
 See the [repository README](../README.md) for tooling and licence information.
 
+**Warning this membrane has not yet been tested on real hardware!**
+
+The source image for the HB-F1II is skewed, so there is no guarantee that the footprints for the arrow keys are in the correct location. 
+
 ![Render](doc/HB-F1II%20Render.png)
 ![Membrane](doc/HB-F1II%20Membrane%20Pic.jpg)
