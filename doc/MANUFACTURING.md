@@ -132,9 +132,9 @@ Base flex thickness (layers 3–7): **≈ 0.1034 mm**.
 
 ## 5. Things to check before paying
 
-- **Board size vs. FPC limits.** 350 × 170 mm is large for flex — confirm it is
-  within JLCPCB's current single-piece FPC size limit when you upload; the
-  order page will flag it if not.
+- **Board size.** The 350 × 170 mm HB-F1 board has already been manufactured at
+  JLCPCB, so the size is within their single-piece FPC limit. The HB-F1II board
+  shares the same outline dimensions.
 - **Cut-outs.** The design contains internal cut-outs ("Cut-out in design:
   Yes"); confirm they are read from `pcb-Edge_Cuts.gbr` in JLCPCB's Gerber
   viewer.
