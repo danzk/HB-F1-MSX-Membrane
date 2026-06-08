@@ -23,6 +23,12 @@ Both projects reference the same footprints in
 [footprints/Sony_Hit_Bit.pretty/](footprints/Sony_Hit_Bit.pretty/) via each
 project's `fp-lib-table` (`${KIPRJMOD}/../../footprints/Sony_Hit_Bit.pretty`).
 
+## Manufacturing
+
+See [doc/MANUFACTURING.md](doc/MANUFACTURING.md) for how to order the membrane
+from JLCPCB as a 2-layer flexible PCB (stackup, order settings and stiffener
+details).
+
 ## Tooling
 
 2D mechanical drawings were performed with QCAD v3.31.2.7 — https://www.qcad.org/
