@@ -42,7 +42,7 @@ You can omit the paste layers (`pcb-F_Paste.gbr`, `pcb-B_Paste.gbr`) and
 `pcb-User_Comments.gbr` — there is no SMT assembly, and the comments layer is
 documentation only.
 
-> If you need to regenerate these, open the project in KiCad 8, then
+> If you need to regenerate these, open the project in KiCad 10, then
 > **File → Plot** (select the layers above, Gerber format) and
 > **File → Fabrication Outputs → Drill Files** (Excellon, PTH/NPTH separated).
 
@@ -50,31 +50,41 @@ documentation only.
 
 ## 2. JLCPCB order configuration
 
-On the JLCPCB FPC order page, set **Base Material = Flex** and then match the
-following. The right-hand column is the value encoded in the PCB.
+Set **Base Material** to **`Flex`** first — the flex-specific fields (polyimide
+thickness, coverlay, flex copper weight, stiffener) only appear after that.
+Field labels and option strings below are quoted verbatim from the JLCPCB quote
+form (<https://cart.jlcpcb.com/quote>); the right-hand column is the value
+encoded in the PCB.
 
-| JLCPCB option | Value | Source |
+| JLCPCB field | Selection | Source |
 | --- | --- | --- |
-| Base Material | **Flex** | Polyimide stackup |
-| Layers | **2** | Copper Layer Count |
+| Base Material | **`Flex`** | Polyimide stackup |
+| Layers | **`2`** | Copper Layer Count |
 | Dimensions (single piece) | **350 × 170 mm** | Board overall dimensions |
-| Different Design | 1 | — |
-| Delivery Format | Single PCB | — |
-| Polyimide (PI) Thickness | **0.1 mm** | Board Thickness 0.1034 mm |
-| Coverlay | **Yellow** | F.Mask / B.Mask colour |
-| Copper Weight (base) | **1/3 oz (≈12 µm)** | Copper Thickness "12 µm finish copper (1/3 Oz.)" |
-| Surface Finish | **ENIG** | Copper Finish |
-| Min track/spacing | 0.25 mm / 0.25 mm | Design rules (well within FPC limits) |
-| Min hole diameter | 0.5 mm | Board Characteristics |
-| Castellated Holes | No | Castellated pads |
-| Impedance Control | No | — |
-| Via covering | Tented | Via covering |
-| EMI Shielding Film | No | — |
-| Stiffener | **Yes — see section 3** | Stiffener required |
+| Different Design | `1` | — |
+| Delivery Format | `Single PCB` | — |
+| PCB Thickness (flex) | **≈ 0.1 mm** (nearest flex option) | Board Thickness 0.1034 mm |
+| Coverlay colour | **`Yellow`** | F.Mask / B.Mask colour |
+| Outer Copper Weight | **`1/3 oz`** (≈12 µm; lightest flex option) | "12 µm finish copper (1/3 Oz.)" |
+| Surface Finish | **`ENIG`** | Copper Finish |
+| Gold Fingers | `No` | see note below |
+| Castellated Holes | `No` | Castellated pads |
+| Stiffener | **`Polyimide`** — see section 3 | Stiffener required |
+| EMI Shielding Film | (leave off) | — |
 
-The exposed contact fingers at the cable tail (where the coverlay is opened)
-are plated by the ENIG finish; no separate "gold fingers / bevel" option is
-required for insertion into the keyboard's ZIF/FFC connector.
+> The `PCB Thickness` and `Outer Copper Weight` option lists change once
+> `Flex` is selected (the form's default lists are for FR-4). Pick the flex
+> value closest to the spec — ~0.1 mm thickness and the lightest copper
+> (1/3 oz / 12 µm).
+
+For reference, the design rules are well inside JLCPCB's FPC limits:
+min track/spacing **0.25 mm / 0.25 mm**, min hole **0.5 mm**, and vias are
+tented.
+
+**Gold Fingers:** the design marks the cable tail as an edge connector, but the
+exposed contacts there are simply coverlay openings plated by the **ENIG**
+finish — leave `Gold Fingers` set to `No` (that option adds bevelled, thick
+gold edge fingers, which the FFC/ZIF connector does not need).
 
 ---
 
@@ -93,9 +103,10 @@ enough thickness and rigidity for the connector.
 | Total thickness at tail | ≈ 0.289 mm (0.1034 mm flex + stiffener) |
 | Gerber layer defining region | **`User.1`** (`pcb-User_1.gbr`) |
 
-When ordering, select a **PI (polyimide) stiffener** on the bottom side and, in
-the order remarks, instruct JLCPCB that the stiffener location/outline is
-defined by the `User.1` gerber layer (`pcb-User_1.gbr`). The target total
+When ordering, set **`Stiffener`** to **`Polyimide`** (the other options are
+`Without`, `FR4`, `Stainless Steel` and `3M Tape`). In the order remarks,
+instruct JLCPCB that the stiffener location/outline is defined by the `User.1`
+gerber layer (`pcb-User_1.gbr`) and goes on the bottom side. The target total
 thickness at the contact tail is ~0.3 mm to suit the MSX keyboard FFC connector.
 
 ---
