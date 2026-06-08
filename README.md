@@ -1,12 +1,36 @@
-# MSX HB-F1 Keyboard Membrane
+# MSX Hit Bit Keyboard Membranes
 
-A replacement keyboard membrane for the Sony HB-F1 MSX home computer.
+Replacement keyboard membranes for Sony MSX "Hit Bit" home computers.
 
-2D Mechanical drawing was performed with QCAD v3.31.2.7 available at https://www.qcad.org/
+This repository hosts one design per machine, each in its own directory, all
+sharing a common KiCad footprint library.
 
-Electronics were designed with KiCAD v8.0.7 available at https://www.kicad.org/
+## Variants
 
-The PCB layout uses the font IBM Plex Sans available at https://www.ibm.com/plex/
+| Machine | Directory | Notes |
+| --- | --- | --- |
+| Sony HB-F1 | [hb-f1/](hb-f1/) | Original design |
+| Sony HB-F1II | [hb-f1ii/](hb-f1ii/) | Reworked PCB with revised switch footprint |
+
+Each variant directory contains its own `pcb/` (KiCad project), `gerber/`
+(fabrication outputs), `doc/` (renders and reference images) and `mech/`
+(mechanical drawings).
+
+## Shared footprint library
+
+Both projects reference the same footprints in
+[footprints/Sony_Hit_Bit.pretty/](footprints/Sony_Hit_Bit.pretty/) via each
+project's `fp-lib-table` (`${KIPRJMOD}/../../footprints/Sony_Hit_Bit.pretty`).
+
+## Tooling
+
+2D mechanical drawings were performed with QCAD v3.31.2.7 — https://www.qcad.org/
+
+Electronics were designed with KiCad v8.0.7 — https://www.kicad.org/
+
+The PCB layout uses the font IBM Plex Sans — https://www.ibm.com/plex/
+
+## Licence
 
 Copyright Alexander Knapik 2025.
 
@@ -18,8 +42,3 @@ This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED
 WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY
 AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2
 for applicable conditions.
-
-![PCB Render](doc/pcb-render.jpg)
-![PCB Actual](doc/pcb-actual.jpg)
-![PCB Tray](doc/pcb-actual-tray.jpg)
-![PCB TEST](doc/pcb-test.jpg)
