@@ -13,8 +13,9 @@ sharing a common KiCad footprint library.
 | Sony HB-F1II | [hb-f1ii/](hb-f1ii/) | Reworked PCB with revised switch footprint |
 
 Each variant directory contains its own `pcb/` (KiCad project), `gerber/`
-(fabrication outputs), `doc/` (renders and reference images) and `mech/`
-(mechanical drawings).
+(fabrication outputs) and `mech/` (mechanical drawings), plus a `doc/`
+folder for any variant-specific images. Reference material and renders
+shared across variants live in the top-level [doc/](doc/) directory.
 
 ## Shared footprint library
 
